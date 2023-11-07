@@ -1,0 +1,618 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link href="css" rel="stylesheet" type="text/css">
+    <link href="dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link href="simple-line-icons.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="style(1).css" rel="stylesheet">
+    <script src="jquery-1.11.0.min.js"></script>
+
+        <style>
+                body{font-family:'Times New Roman';line-height:1;}
+                h3{font-family: 'Times New Roman'; font-size: 18px; font-weight: bold; color: '0598B1'}
+                h4{font-family: 'Times New Roman', MS Sans Serif; font-size: 14px; font-weight: normal; color: black}
+                h6{font-family: 'Times New Roman'; font-size: 12px; font-weight: bold; color: black}
+                table.a{border-collapse: collapse; font-family: 'Times New Roman'; font-size: 11px; color: 'black'}
+                table.b{border-collapse: collapse; font-family: 'Times New Roman'; font-size: 12px; color: 'black'}
+                table.logo{border-collapse: collapse; font-family: 'Times New Roman'; font-size: 10px; font-weight: bold; color: '408080'}
+        </style>
+
+        <script language="javascript">
+                function ActiveColor(row)
+                {
+                row.style.background = '#BFBFFF';
+                }
+                function PassiveColor(row)
+                {
+                row.style.background = 'white';
+                }
+        </script>
+    
+</head><body><div class="content-w">
+<div class="content-i" style="font-weight:bold">
+    <div class="content-box">
+    
+                         <div style="text-align:right;">
+              <span style="color:red;">Ф-20-1/20</span></div>
+            <div class="rcard-table table-responsive2">
+            
+              <table id="myTable" class="table">
+                <thead>
+                
+				<tr>
+					
+                    <td class="text-center" colspan="7" style="font-weight:bold">ШЫМКЕНТ УНИВЕРСИТЕТІ /SHYMKENT UNIVERSITY /ШЫМКЕНТСКИЙ УНИВЕРСИТЕТ</td>
+                    
+                  </tr>
+				  <tr>
+					
+                    <td class="text-center" style="font-size:12px; font-weight:bold" colspan="7">(жоғары оқу орнының аты /the Name Of High Education Estabishment /наименование высшего учебного заведения)</td>
+                    
+                  </tr>
+                  <tr>
+					
+                    <td class="text-center" style="font-size:12px" colspan="7">
+                    <img src="shu.png" width="200px">
+                    </td>
+                    
+                  </tr>
+				  				  <tr>
+					
+                    <td class="text-center" style="font-weight:bold" colspan="7">ТРАНСКРИПТ/THE TRANSCRIPT/ТРАНСКРИПТ</td>
+                    
+                  </tr>
+				  <tr>
+					
+                    <td class="text-center" style="font-size:12px" colspan="7">&nbsp;</td>
+                    
+                  </tr>
+				  <tr>
+					
+                    <td class="text-center" colspan="2" style="font-size:14px;font-weight:bold;">Аты-жөні/Name/Ф.И.О:</td>
+					<td class="text-center" colspan="5" style="font-size:14px;font-weight:bold;">Джангабаев Самандар Бахтияр угли</td>
+                    
+                  </tr>
+				  <tr>
+					
+                    <td class="text-center" colspan="2" style="font-size:14px;font-weight:bold;">Факультеті/Faculty/Факультет:</td>
+					<td class="text-center" colspan="5" style="font-size:14px;font-weight:bold;">Жаратылыстану және гуманитарлық ғылымдар  факультеті</td>
+                    
+                  </tr>
+				  <tr>
+					
+                    <td class="text-center" colspan="2" style="font-size:14px;font-weight:bold;">Мамандығы/Specialty/Специальность:</td>
+					<td class="text-center" colspan="5" style="font-size:14px;font-weight:bold;">6В04101-Экономика</td>
+                    
+                  </tr>
+				  <tr>
+					
+                    <td class="text-center" colspan="2" style="font-size:14px;font-weight:bold;">Түскен жылы/Year/Год поступления:</td>
+					<td class="text-center" colspan="5" style="font-size:14px;font-weight:bold;">2021</td>
+                    
+                  </tr>
+				  <tr>
+					
+                    <td class="text-center" colspan="2" style="font-size:14px;font-weight:bold;">Оқу тілі/Language/Язык:</td>
+					<td class="text-center" colspan="5" style="font-size:14px;font-weight:bold;">қазақша</td>
+                    
+                  </tr>
+				  <tr>
+					
+                    <td class="text-center" style="font-size:12px" colspan="7">&nbsp;</td>
+                    
+                  </tr>
+				  <tr>
+					<td class="text-center" rowspan="2" style="font-size:14px;font-weight:bold;">Код					
+                    </td><td class="text-center" rowspan="2" style="font-size:14px;font-weight:bold;">Пәндердің аталуы/Courses/Наименование дисциплины</td>
+					<td class="text-center" rowspan="2" style="font-size:14px;font-weight:bold;">Кредит саны</td>
+					<td class="text-center" colspan="4" style="font-size:14px;font-weight:bold;">Баға/Grade/Оценка</td>
+                    
+                  </tr>
+				   <tr>
+					
+                    <td class="text-center" style="font-size:14px;font-weight:bold;">Әріптік/alphabetic/Буквенная</td>
+					<td class="text-center" style="font-size:14px;font-weight:bold;">Балмен/in Points/в баллах</td>
+					<td class="text-center" style="font-size:14px;font-weight:bold;">пайызбен/in Persent/в процентах</td>
+					<td class="text-center" style="font-size:14px;font-weight:bold;">Дәстүрлі жүйемен/Traditional/Традиционная</td>
+                    
+                  </tr>
+				  
+                  
+                </thead>
+                <tbody>
+									<tr>
+                        <td class="text-center" colspan="7" style="font-weight:bold">1 Семестр</td>
+
+                    </tr>
+                 					
+                    <tr>
+						<td style="font-weight:bold">ShME 1101 </td>
+                        <td style="font-weight:bold">Шет мемлекеттер экономикасы </td>
+						<td style="font-weight:bold">4</td>
+						<td style="font-weight:bold">A-</td>
+						<td style="font-weight:bold">3.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">93</td>
+						<td style="font-weight:bold">өте жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">ЕТ 1102</td>
+                        <td style="font-weight:bold">Экономикалық теория </td>
+						<td style="font-weight:bold">5</td>
+						<td style="font-weight:bold">A</td>
+						<td style="font-weight:bold">4.0</td>
+						
+                                              <td class="text-center" style="font-weight:bold">95</td>
+						<td style="font-weight:bold">өте жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">Mar 1104</td>
+                        <td style="font-weight:bold">Маркетинг </td>
+						<td style="font-weight:bold">5</td>
+						<td style="font-weight:bold">A</td>
+						<td style="font-weight:bold">4.0</td>
+						
+                                              <td class="text-center" style="font-weight:bold">95</td>
+						<td style="font-weight:bold">өте жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">SZhKKMN 1106 </td>
+                        <td style="font-weight:bold">Сыбайлас жемқорлыққа қарсы мәдениет негіздері </td>
+						<td style="font-weight:bold">4</td>
+						<td style="font-weight:bold">B-</td>
+						<td style="font-weight:bold">2.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">75</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">KSZhOM 1107 </td>
+                        <td style="font-weight:bold">Қоғамдық сананы жаңғыртудың өзекті мәселелері </td>
+						<td style="font-weight:bold">3</td>
+						<td style="font-weight:bold">B</td>
+						<td style="font-weight:bold">3.0</td>
+						
+                                              <td class="text-center" style="font-weight:bold">83</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">Mic 1108</td>
+                        <td style="font-weight:bold">Микроэкономика </td>
+						<td style="font-weight:bold">6</td>
+						<td style="font-weight:bold">B+</td>
+						<td style="font-weight:bold">3.33</td>
+						
+                                              <td class="text-center" style="font-weight:bold">88</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">Sta 1109</td>
+                        <td style="font-weight:bold">Статистика</td>
+						<td style="font-weight:bold">6</td>
+						<td style="font-weight:bold">B+</td>
+						<td style="font-weight:bold">3.33</td>
+						
+                                              <td class="text-center" style="font-weight:bold">85</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">ES 1113</td>
+                        <td style="font-weight:bold">Экономикалық саясат </td>
+						<td style="font-weight:bold">4</td>
+						<td style="font-weight:bold">B+</td>
+						<td style="font-weight:bold">3.33</td>
+						
+                                              <td class="text-center" style="font-weight:bold">88</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">HM 1116</td>
+                        <td style="font-weight:bold">Халықаралық менеджмент </td>
+						<td style="font-weight:bold">5</td>
+						<td style="font-weight:bold">A</td>
+						<td style="font-weight:bold">4.0</td>
+						
+                                              <td class="text-center" style="font-weight:bold">95</td>
+						<td style="font-weight:bold">өте жақсы</td>
+                    </tr>
+										                    															<tr>
+                        <td class="text-center" colspan="7" style="font-weight:bold">2 Семестр</td>
+
+                    </tr>
+                 					
+                    <tr>
+						<td style="font-weight:bold">Men 1103</td>
+                        <td style="font-weight:bold">Менеджмент </td>
+						<td style="font-weight:bold">4</td>
+						<td style="font-weight:bold">A-</td>
+						<td style="font-weight:bold">3.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">90</td>
+						<td style="font-weight:bold">өте жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">Mac 1110</td>
+                        <td style="font-weight:bold">Макроэкономика </td>
+						<td style="font-weight:bold">6</td>
+						<td style="font-weight:bold">B+</td>
+						<td style="font-weight:bold">3.33</td>
+						
+                                              <td class="text-center" style="font-weight:bold">85</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">BEN 1114</td>
+                        <td style="font-weight:bold">Бухгалтерлік есеп негіздері </td>
+						<td style="font-weight:bold">4</td>
+						<td style="font-weight:bold">B</td>
+						<td style="font-weight:bold">3.0</td>
+						
+                                              <td class="text-center" style="font-weight:bold">80</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">EIT 1115</td>
+                        <td style="font-weight:bold">Экономикалық ілімдер тарихы </td>
+						<td style="font-weight:bold">4</td>
+						<td style="font-weight:bold">B-</td>
+						<td style="font-weight:bold">2.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">78</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">SSS 1117</td>
+                        <td style="font-weight:bold">Салық және салық салу </td>
+						<td style="font-weight:bold">6</td>
+						<td style="font-weight:bold">B-</td>
+						<td style="font-weight:bold">2.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">75</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">SM 1118</td>
+                        <td style="font-weight:bold">Стратегиялық менеджмент </td>
+						<td style="font-weight:bold">6</td>
+						<td style="font-weight:bold">A-</td>
+						<td style="font-weight:bold">3.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">93</td>
+						<td style="font-weight:bold">өте жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">BU 1119</td>
+                        <td style="font-weight:bold">Бизнесті ұйымдастыру </td>
+						<td style="font-weight:bold">4</td>
+						<td style="font-weight:bold">B+</td>
+						<td style="font-weight:bold">3.33</td>
+						
+                                              <td class="text-center" style="font-weight:bold">85</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">ТРЕ 1120</td>
+                        <td style="font-weight:bold">Табиғатты пайдалану экономикасы </td>
+						<td style="font-weight:bold">4</td>
+						<td style="font-weight:bold">B-</td>
+						<td style="font-weight:bold">2.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">75</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">Sak 1122</td>
+                        <td style="font-weight:bold">Сақтандыру </td>
+						<td style="font-weight:bold">5</td>
+						<td style="font-weight:bold">B</td>
+						<td style="font-weight:bold">3.0</td>
+						
+                                              <td class="text-center" style="font-weight:bold">83</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    															<tr>
+                        <td class="text-center" colspan="7" style="font-weight:bold">3 Семестр</td>
+
+                    </tr>
+                 					
+                    <tr>
+						<td style="font-weight:bold">ЕТ 4226</td>
+                        <td style="font-weight:bold">Экономикалық талдау</td>
+						<td style="font-weight:bold">5</td>
+						<td style="font-weight:bold">A-</td>
+						<td style="font-weight:bold">3.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">93</td>
+						<td style="font-weight:bold">өте жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">IZhBEB 3213</td>
+                        <td style="font-weight:bold">Инвестициялық жобаларды басқару және экономикалық бағалау</td>
+						<td style="font-weight:bold">5</td>
+						<td style="font-weight:bold">A-</td>
+						<td style="font-weight:bold">3.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">90</td>
+						<td style="font-weight:bold">өте жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">КЕ 3301</td>
+                        <td style="font-weight:bold">Кәсіпорын экономикасы</td>
+						<td style="font-weight:bold">4</td>
+						<td style="font-weight:bold">B+</td>
+						<td style="font-weight:bold">3.33</td>
+						
+                                              <td class="text-center" style="font-weight:bold">85</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">ANB 2112</td>
+                        <td style="font-weight:bold">Ақша, Несие, Банктер</td>
+						<td style="font-weight:bold">6</td>
+						<td style="font-weight:bold">B+</td>
+						<td style="font-weight:bold">3.33</td>
+						
+                                              <td class="text-center" style="font-weight:bold">88</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">KE 2121</td>
+                        <td style="font-weight:bold">Креативті экономика</td>
+						<td style="font-weight:bold">4</td>
+						<td style="font-weight:bold">B+</td>
+						<td style="font-weight:bold">3.33</td>
+						
+                                              <td class="text-center" style="font-weight:bold">85</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">ET 2123</td>
+                        <td style="font-weight:bold">Экономикалық талдау </td>
+						<td style="font-weight:bold">5</td>
+						<td style="font-weight:bold">B-</td>
+						<td style="font-weight:bold">2.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">75</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">SE 2124</td>
+                        <td style="font-weight:bold">Сандық экономика</td>
+						<td style="font-weight:bold">5</td>
+						<td style="font-weight:bold">B+</td>
+						<td style="font-weight:bold">3.33</td>
+						
+                                              <td class="text-center" style="font-weight:bold">85</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">KE 2201</td>
+                        <td style="font-weight:bold">Кәсіпорын экономикасы </td>
+						<td style="font-weight:bold">4</td>
+						<td style="font-weight:bold">B-</td>
+						<td style="font-weight:bold">2.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">78</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">MSA 2207</td>
+                        <td style="font-weight:bold">Мемлекеттік сатып алу </td>
+						<td style="font-weight:bold">4</td>
+						<td style="font-weight:bold">A-</td>
+						<td style="font-weight:bold">3.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">90</td>
+						<td style="font-weight:bold">өте жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">IZhBEB 2111</td>
+                        <td style="font-weight:bold">Инвестициялық жобаларды басқару және экономикалық бағалау</td>
+						<td style="font-weight:bold">5</td>
+						<td style="font-weight:bold">B+</td>
+						<td style="font-weight:bold">3.33</td>
+						
+                                              <td class="text-center" style="font-weight:bold">88</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    															<tr>
+                        <td class="text-center" colspan="7" style="font-weight:bold">4 Семестр</td>
+
+                    </tr>
+                 					
+                    <tr>
+						<td style="font-weight:bold">Kas 2202</td>
+                        <td style="font-weight:bold">Кәсіпкерлік </td>
+						<td style="font-weight:bold">5</td>
+						<td style="font-weight:bold">A-</td>
+						<td style="font-weight:bold">3.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">93</td>
+						<td style="font-weight:bold">өте жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">EMR 2203</td>
+                        <td style="font-weight:bold">Экономиканы мемлекеттік реттеу </td>
+						<td style="font-weight:bold">5</td>
+						<td style="font-weight:bold">B-</td>
+						<td style="font-weight:bold">2.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">75</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">HB 2206</td>
+                        <td style="font-weight:bold">Халықаралық бизнес</td>
+						<td style="font-weight:bold">6</td>
+						<td style="font-weight:bold">A</td>
+						<td style="font-weight:bold">4.0</td>
+						
+                                              <td class="text-center" style="font-weight:bold">95</td>
+						<td style="font-weight:bold">өте жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">OU 2208</td>
+                        <td style="font-weight:bold">Өндірісті ұйымдастыру </td>
+						<td style="font-weight:bold">5</td>
+						<td style="font-weight:bold">B</td>
+						<td style="font-weight:bold">3.0</td>
+						
+                                              <td class="text-center" style="font-weight:bold">83</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">HRM 2209</td>
+                        <td style="font-weight:bold">HR менеджмент</td>
+						<td style="font-weight:bold">5</td>
+						<td style="font-weight:bold">B</td>
+						<td style="font-weight:bold">3.0</td>
+						
+                                              <td class="text-center" style="font-weight:bold">80</td>
+						<td style="font-weight:bold">жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">Eks 2210</td>
+                        <td style="font-weight:bold">Экскурсиятану </td>
+						<td style="font-weight:bold">5</td>
+						<td style="font-weight:bold">A-</td>
+						<td style="font-weight:bold">3.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">90</td>
+						<td style="font-weight:bold">өте жақсы</td>
+                    </tr>
+										                    					
+                    <tr>
+						<td style="font-weight:bold">TS 2211</td>
+                        <td style="font-weight:bold">Туристтік саяхат</td>
+						<td style="font-weight:bold">5</td>
+						<td style="font-weight:bold">A-</td>
+						<td style="font-weight:bold">3.67</td>
+						
+                                              <td class="text-center" style="font-weight:bold">90</td>
+						<td style="font-weight:bold">өте жақсы</td>
+                    </tr>
+										                    															
+                </tbody>
+              </table>
+			            </div>
+          <div class="rcard-footer">
+            <div class="rcard-logo" style="font-size:18px">
+				GPA : 
+                          </div>
+			<div class="rcard-logo" style="font-size:18px">
+				3.33                          </div>
+           <div class="rcard-info">
+              <span>&nbsp;</span>
+            </div>
+          </div>
+		  <div class="rcard-footer">
+            <div class="rcard-logo" style="font-size:18px">
+				Жалпы кредит саны : 
+                          </div>
+			<div class="rcard-logo" style="font-size:18px">
+				168                          </div>
+            <div class="rcard-info">
+              <span>&nbsp;</span>
+            </div>
+          </div>
+		  		  <div class="rcard-footer">
+            <div class="rcard-logo" style="font-size:18px">
+				Ректор<br> Сейткулов  Н.А.<br>М.О
+                          </div>
+			<div class="rcard-logo" style="font-size:18px">
+				<span>&nbsp;</span>
+                          </div>
+            <div class="rcard-info" style="font-size:18px">
+              <span>_________________________</span>
+            </div>
+          </div>
+		   <div class="rcard-footer">
+            <div class="rcard-logo" style="font-size:18px">
+				Студенттерге қызмет көрсету орталығының бастығы<br>Тұрар Б.І.
+                          </div>
+			<div class="rcard-logo" style="font-size:18px">
+				<span>&nbsp;</span>
+                          </div>
+            <div class="rcard-info" style="font-size:18px">
+              <span>_________________________</span>
+            </div>
+          </div>
+		  <div class="rcard-footer">
+            <div class="rcard-logo" style="font-size:18px">
+				Тіркеуші _________________________
+                          </div>
+			<div class="rcard-logo" style="font-size:18px">
+				<span>&nbsp;</span>
+                          </div>
+            <div class="rcard-info" style="font-size:18px">
+              <span>_________________________</span>
+            </div>
+          </div>
+		  		  <div class="rcard-footer">
+            <div class="rcard-logo" style="font-size:18px">
+				Тіркеу №/Registration №/Регистрационный № ________
+                          </div>
+			<div class="rcard-logo" style="font-size:18px">
+				<span>"____"___________20___ж/y/г.</span>
+                          </div>
+            <div class="rcard-info">
+              <span>&nbsp;</span>
+            </div>
+          </div>
+             <table width="100%" align="center" border="0" bordercolor="black" class="a">
+		 <tbody><tr>
+			<td width="5%"><img style="height: 100px;" src="49940.png"></td>
+			<td>
+				Білім сапасын қамтамасыздандыру<br> бойынша тәуелсіз агенттігі
+			   <br>
+			   <br>
+			   Независимое агентство<br> по обеспечению качества в образовании
+			   <br>
+			   <br>
+			   Independent Agency<br> for Quality Assurance in Education
+			 </td>
+		 </tr>
+		 
+		 </tbody></table>
+		 <table width="100%" align="center" border="0" bordercolor="black" class="a">
+		 <tbody><tr>
+			<td>https://port.univershu.edu.kz/admin/marks_print_view/49940</td>
+		 </tr>
+		 </tbody></table>
+      
+    </div>
+</div>
+</div>
+
+        
+</body></html>
